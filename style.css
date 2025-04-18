@@ -7,7 +7,7 @@
 body{
     font-family:Poppins;
     background-color: #f9f7f3;
-    color: #f9f7f3;
+    color: #4a5759;
 }
 
 header,footer{
@@ -51,8 +51,17 @@ nav li{
     list-style-type: none;
     display: inline-block;
     margin: .1em .5em;
-    padding: .5em;
+    padding: .1em;
 }
+
+div{
+    margin: 1em;
+}
+
+ul{
+    margin: 1em;
+}
+
 
 th{background-color: #b0c4b1;}
 
@@ -87,4 +96,17 @@ button{
 
 button:hover{
     background-color: #b0c4b1;
+}
+
+
+
+#favoritethingsparent{
+    display: flex;
+    padding: .02rem;
+
+}
+
+#favoritethingspictures image{
+    max-width: 200px;
+    max-height: 200px;
 }
